@@ -1,0 +1,11 @@
+1. Purpose of the next Function
+The next function in C4 is responsible for lexical analysis, converting raw source code into a stream of tokens. It reads characters sequentially, identifying keywords, operators, literals, and identifiers. It also skips whitespace, handles comments, and processes string and numeric literals. By breaking the input into structured tokens, it allows the parser to work with a simplified representation of the code, making it a crucial step in the compilation process.
+
+2. Symbol Resolution in C4
+C4 handles symbol resolution by maintaining a simple symbol table that tracks identifiers such as variables, functions, and system calls. When an identifier is encountered, it is either added to the symbol table (if it's a new declaration) or looked up to resolve its type and address. Symbols can belong to different classes, such as global variables, local variables, functions, or system calls. The parser ensures that references to identifiers are correctly resolved, preventing undefined symbol errors.
+
+3. Limitations of C4 as a Compiler
+C4 is a minimal compiler designed for self-compilation, but it lacks many features of a full C compiler. It does not support structures, unions, or floating-point arithmetic. The lack of an optimization phase means that the generated code is not as efficient as that of modern compilers. Additionally, it does not perform advanced error handling, making debugging more difficult. Its simplicity, however, makes it useful for understanding compiler design fundamentals.
+
+4. Self-Hosting in C4
+C4 achieves self-hosting by being able to compile its own source code. This is possible because it implements enough of the C language to parse, analyze, and generate executable code for itself. Self-hosting demonstrates that C4 is a fully functional compiler, even if minimal. The implications of this design include the ability to improve the compiler using itself, portability across different systems, and a deeper understanding of compiler internals through its own implementation.
