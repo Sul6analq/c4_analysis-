@@ -1,0 +1,84 @@
+Total LOC for the entire program: 612
+Function next: 88 LOC
+Function expr: 176 LOC
+Function stmt: 52 LOC
+Function main: 238 LOC
+
+Cyclomatic Complexity
+next(): 27
+expr(): 57
+stmt(): 8
+main(): 55
+
+Total Number of Functions: 4
+Function next: 88 LOC
+Function expr: 176 LOC
+Function stmt: 52 LOC
+Function main: 238 LOC
+Average function size: 138.5≈139 LOC
+
+Number of global variables and their usage: 14 global variables
+p - Pointer to the current position in the source code, used for reading characters.
+lp - Pointer to the last processed line in the source code, useful for handling line breaks.
+data - Pointer used to manage the data section of the program.
+e - Pointer to the current position in emitted code, used during code generation.
+le - Pointer to the last emitted instruction, mainly for debugging and printing.
+id - Pointer to the currently parsed identifier in the symbol table.
+sym - Pointer to the symbol table, storing variables, functions, and keywords.
+tk - Stores the current token type being processed by the lexical analyzer.
+ival - Holds the numeric value of a token when dealing with literals.
+ty - Tracks the type of the current expression.
+loc - Stores the local variable offset, used in function stack management.
+line - Keeps track of the current line number for error reporting and debugging.
+src - A flag that enables the printing of source and assembly code during execution.
+
+Number of unique tokens and their frequency
+36 tokens
+Num - 6 times
+Fun - 3 times
+Sys - 6 times
+Glo - 3 times
+Loc - 7 times
+Id - 7 times
+Char - 18 times
+Else - 7 times
+Enum - 6 times
+If - 12 times
+Int - 24 times
+Return - 11 times
+Sizeof - 4 times
+While - 5 times
+Assign - 8 times
+Cond - 3 times
+Lor - 3 times
+Lan - 3 times
+Or - 5 times
+Xor - 6 times
+And - 7 times
+Eq - 6 times
+Ne - 5 times
+Lt - 6 times
+Gt - 6 times
+Le - 5 times
+Ge - 5 times
+Shl - 4 times
+Shr - 4 times
+Add - 10 times
+Sub - 10 times
+Mul - 7 times
+Div - 6 times
+Mod - 4 times
+Inc - 5 times
+Dec - 4 times
+Brak - 3 times
+
+Number of branches, loops, and their nesting levels
+Branches: 12 if statements, 7 else blocks, max nesting 3 levels.
+Loops: 5 while loops, max nesting 2 levels.
+No switch statements or for loops.
+
+Stack: Function calls, local variables, VM execution state.
+Heap: Symbol table, compiled code, data section, stack allocation.
+Global Data: State tracking variables for parsing and execution.
+
+
