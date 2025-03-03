@@ -34,43 +34,43 @@ src - A flag that enables the printing of source and assembly code during execut
 
 Number of unique tokens and their frequency
 36 tokens
-Num - 6 times
-Fun - 3 times
-Sys - 6 times
-Glo - 3 times
-Loc - 7 times
-Id - 7 times
-Char - 18 times
-Else - 7 times
-Enum - 6 times
-If - 12 times
-Int - 24 times
-Return - 11 times
-Sizeof - 4 times
-While - 5 times
-Assign - 8 times
-Cond - 3 times
-Lor - 3 times
-Lan - 3 times
-Or - 5 times
-Xor - 6 times
-And - 7 times
-Eq - 6 times
-Ne - 5 times
-Lt - 6 times
-Gt - 6 times
-Le - 5 times
-Ge - 5 times
-Shl - 4 times
-Shr - 4 times
-Add - 10 times
-Sub - 10 times
-Mul - 7 times
-Div - 6 times
-Mod - 4 times
-Inc - 5 times
-Dec - 4 times
-Brak - 3 times
+Num: 8
+Fun: 3
+Sys: 3
+Glo: 3
+Loc: 7
+Id: 7
+Char: 8
+Else: 2
+Enum: 2
+If: 2
+Int: 8
+Return: 2
+Sizeof: 2
+While: 3
+Assign: 13
+Cond: 4
+Lor: 3
+Lan: 4
+Or: 3
+Xor: 4
+And: 3
+Eq: 4
+Ne: 3
+Lt: 3
+Gt: 3
+Le: 3
+Ge: 3
+Shl: 3
+Shr: 3
+Add: 6
+Sub: 8
+Mul: 11
+Div: 4
+Mod: 3
+Inc: 18
+Dec: 4
+Brak: 3
 
 Number of branches, loops, and their nesting levels
 Branches: 12 if statements, 7 else blocks, max nesting 3 levels.
