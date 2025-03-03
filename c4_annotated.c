@@ -366,13 +366,7 @@ void stmt()
     if (tk == ';') next(); else { printf("%d: semicolon expected\n", line); exit(-1); }
   }
 }
-This is the entry point of the compiler. It performs the following:
-// Processes command-line arguments to set flags
-// Opens and reads the source file into memory
-// Allocates memory for the symbol table, emitted code, data area, and stack
-// Initializes the symbol table with keywords and system/library functions
-// Parses global declarations, including functions and variables
-// Sets up the stack and then runs the compiled code using a simple virtual machine
+// The main function initializes memory, processes input, sets up the symbol table, parses global declarations, and executes the compiled code using a virtual machine.
 int main(int argc, char **argv)
 {
   int fd, bt, ty, poolsz, *idmain;
